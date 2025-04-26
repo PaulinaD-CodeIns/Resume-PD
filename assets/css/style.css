@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+/*-------------------------------------------------------- Colors */
+.bg-color-name-title {
+    background-color: #676767;
+}
+
+/*-------------------------------------------------------- Header */
 
 header {
     color: blue;
@@ -7,13 +13,32 @@ header {
     margin: 0;
 }
 
-logo {
-    background: url("/assets/images/profileimg.jpeg");
-    background-repeat: no-repeat;
+
+.logo {
+    background: url("../../assets/images/profileimg.jpeg") no-repeat center center;
     background-size: cover;
-    background-position: center;
     min-height: 360px;
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+.name {
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.title {
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    color: #fff;
+    
 }

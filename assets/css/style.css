@@ -33,6 +33,10 @@
     background-color: #9b59b6;
 }
 
+.bg-color-contact-section {
+    background-color: #fff;
+}
+
 /*-------------------------------------------------------- Header */
 
 header {
@@ -275,6 +279,30 @@ h1, h2, h3, h4 {
 
 .history-items {
     margin-bottom: 30px;
+}
+
+/*-------------------------------------------------------- Contact Form */
+
+.contact-heading {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+
+}
+
+button[type="submit"] {
+    margin-bottom: 30px;
+    margin-top: 15px;
+    background-color: #3498db;
+    border-color: #3498db;
+    color: #fff;
 }
 /*-------------------------------------------------------- Footer */
 

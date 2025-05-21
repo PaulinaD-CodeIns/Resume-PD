@@ -52,7 +52,8 @@
                                         aria-hidden="true"></i><span>GitHub</span></a>
                             </li>
                             <li class="col-6 col-sm-2 nav-menu-color-download list-inline-item menuitem">
-                                <a href="assets/cv/Paulina Dolder - CV.pdf" target="_blank" class="hvr-sweep-to-bottom"><i class="fas fa-cloud-download-alt"
+                                <a href="assets/cv/Paulina Dolder - CV.pdf" target="_blank"
+                                    class="hvr-sweep-to-bottom"><i class="fas fa-cloud-download-alt"
                                         aria-hidden="true"></i><span>Download</span></a>
                             </li>
 
@@ -63,33 +64,96 @@
         </div>
     </header>
 
-    <!--Contact Form-->
     <section class="container-fluid">
-        <div class="row bg-color-contact-section">
-            <div class="col">
-                <h3 class="contact-heading uppercase text-center">Got a project in mind?</h3>
-                <h5 class="uppercase text-center">Let's work together!</h5>
+        <div class="row">
+            <!--Personal Inforamtion section-->
+            <div class="col-md-4 bg-color-personal-info section-column">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="section-heading uppercase">Where I have travelled to:</h3>
+                    </div>
+                </div>
+                <div id="map"></div>
+            </div>
 
-                <div class="center-form">
-                    <form>
-                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required/>
-                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required/>
-                        <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Project description" required></textarea>
-                        
-                        <div class="form-row text-center">
-                            <div class="col">
-                                <button type="submit" class="btn btn-secondary">Send Project Request</button>
+            <!--Three Reasons to Hire Me section-->
+            <div class="col-md-8 section-column bg-color-three-reasons">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="section-heading uppercase">About Me</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="three-reasons-icon fa fa-earth-americas" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="three-reasons-heading uppercase">Travel</h4>
+                                <p>
+                                    I am passionate about exploring the world around me. There is a few destinations I
+                                    have already visited, but my ulitmate goal is to be a travelling nomade before I
+                                    find a place to settle down my roots.
+                                </p>
                             </div>
                         </div>
-                    </form>
+                    </div>
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="three-reasons-icon fa fa-person-dress" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="three-reasons-heading uppercase">Dance and Skate</h4>
+                                <p>
+                                    I love all forms of dance. Curretnly I am doing Ballroom and Latin Dance with my
+                                    partner, and going to Northern Soul group classes every Monday. I also love to quad
+                                    roller skate and where I can I try to mix in dance into this too.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="three-reasons-icon fa fa-seedling" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="three-reasons-heading uppercase">Our Planet</h4>
+                                <p>
+                                    Apart from being a humanitarian, I also love our planet. I am passionate about
+                                    environemntal sciences, health and wildlife conservation. Particularly, I enjoy
+                                    topics like sustainabbility, renewable energy and pollinator conservation. I hope to
+                                    one day have my own apiary and run a floral shop.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="three-reasons-icon fa fa-plate-wheat" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="three-reasons-heading uppercase">Cooking</h4>
+                                <p>
+                                    I am as passionate about cooking as I am about enjoying the art of food. My friends
+                                    would definetly describe me as a foodie, and this is one of my favourite things in
+                                    the world that (most) of wage goes on. I particularly like vegetables, cheeses, and
+                                    freshly bakes breads.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        
-
     </section>
 
-     <!--Footer-->
+
     <footer class="container-fluid">
         <div id="footer-content" class="row">
             <div class="col-md-4">
@@ -134,10 +198,15 @@
                             <span class="sr-only">Pinterest link</span>
                         </a>
                     </li>
-                </ul> 
+                </ul>
             </div>
         </div>
     </footer>
+    <script
+        src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-e5n-UrM3K-EUpyeiN7CNjqdlL_uT5rs&callback=initMap"></script>
+    <script src="assets/js/maps.js"></script>
 </body>
 
 </html>
